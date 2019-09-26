@@ -42,10 +42,10 @@
 
 ```groovy
 dependencies {
-    compile 'cn.bingoogolapple:bga-swipebacklayout:latestVersion@aar'
+    implementation 'cn.bingoogolapple:bga-swipebacklayout:latestVersion@aar'
 
     // 换成己工程里依赖的 support-v4 的版本
-    compile 'com.android.support:support-v4:25.2.0'
+    implementation 'com.android.support:support-v4:28.0.0'
 }
 ```
 
