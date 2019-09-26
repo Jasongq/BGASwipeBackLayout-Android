@@ -1,7 +1,8 @@
 :running:BGASwipeBackLayout-Android:running:
 ============
-
 强烈建议与 **[StatusBarUtil](https://github.com/laobie/StatusBarUtil)** 结合着一起使用
+
+- <font color=#FF0000>此项目是Fork **bingoogolapple的https://github.com/bingoogolapple/BGASwipeBackLayout-Android**修复Android 9.0系统侧滑返回会出现闪屏的bug,如需查看修复效果，请自行下载Demo运行，下方提供的二维码是bingoogolapple的release版</font>
 
 ## 常见问题与反馈
 
@@ -40,12 +41,13 @@
 ### 1.添加 Gradle 依赖
 [![Download](https://api.bintray.com/packages/bingoogolapple/maven/bga-swipebacklayout/images/download.svg)](https://bintray.com/bingoogolapple/maven/bga-swipebacklayout/_latestVersion) bga-swipebacklayout 后面的「latestVersion」指的是左边这个 Download 徽章后面的「数字」，请自行替换。
 
-```groovy
+```
+groovy
 dependencies {
-    implementation 'cn.bingoogolapple:bga-swipebacklayout:latestVersion@aar'
+    implementation 'com.github.Jasongq:BGASwipeBackLayout-Android:v1.2.1-alpha'
 
     // 换成己工程里依赖的 support-v4 的版本
-    implementation 'com.android.support:support-v4:28.0.0'
+    //implementation 'com.android.support:support-v4:28.0.0'
 }
 ```
 
